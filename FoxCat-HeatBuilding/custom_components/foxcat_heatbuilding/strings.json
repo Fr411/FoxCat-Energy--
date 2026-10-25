@@ -1,0 +1,42 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "FoxCat HeatBuilding",
+        "description": "Configurez le bâtiment et les sources de données.",
+        "data": {
+          "name": "Nom du bâtiment",
+          "zones": "Identifiants des zones (séparés par des virgules)",
+          "person_entities": "Entités person.* (séparées par des virgules)",
+          "outdoor_temperature_entity": "Capteur de température extérieure",
+          "solar_power_entity": "Capteur de puissance photovoltaïque",
+          "grid_power_entity": "Capteur de puissance réseau (import positif, export négatif)",
+          "electricity_price_entity": "Capteur de prix de l'électricité",
+          "weather_entity": "Entité météo",
+          "scan_interval": "Intervalle de collecte (secondes)"
+        }
+      }
+    },
+    "error": {
+      "invalid_name": "Le nom ne peut pas être vide."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Options FoxCat HeatBuilding",
+        "data": {
+          "name": "Nom du bâtiment",
+          "zones": "Identifiants des zones (séparés par des virgules)",
+          "person_entities": "Entités person.* (séparées par des virgules)",
+          "outdoor_temperature_entity": "Capteur de température extérieure",
+          "solar_power_entity": "Capteur de puissance photovoltaïque",
+          "grid_power_entity": "Capteur de puissance réseau (import positif, export négatif)",
+          "electricity_price_entity": "Capteur de prix de l'électricité",
+          "weather_entity": "Entité météo",
+          "scan_interval": "Intervalle de collecte (secondes)"
+        }
+      }
+    }
+  }
+}

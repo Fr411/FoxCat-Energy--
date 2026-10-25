@@ -1,0 +1,11 @@
+{
+  "domain": "foxcat_heatbuilding",
+  "name": "FoxCat HeatBuilding",
+  "version": "1.0.0-beta.1",
+  "documentation": "https://github.com/",
+  "issue_tracker": "https://github.com/",
+  "codeowners": [],
+  "config_flow": true,
+  "iot_class": "local_polling",
+  "requirements": []
+}
