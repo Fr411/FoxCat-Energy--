@@ -1,0 +1,8 @@
+simulate:
+  name: Simuler les décisions
+  description: Recalcule les propositions sans envoyer de commandes aux équipements.
+  fields: {}
+recalculate_model:
+  name: Recalculer le modèle thermique
+  description: Réinitialise l'estimation en mémoire pour repartir d'observations nouvelles.
+  fields: {}
